@@ -1,0 +1,22 @@
+clc
+clear all
+close all
+
+% Load electrical signal  
+load leleccum; 
+% Just select some part of the signal.
+indexs = 2600:3100; 
+signal = leleccum(indexs);
+% Do wavelet decomposition of the signal. 
+ndecomposition = 3; 
+wname = 'db3'; 
+% wavedec do multilevel one dimensional wavelet ananlysis.
+% First argument is signal, specified as a real-valued vector.
+% Second argument is the n: Level of decomposition, specified as a positive integer. 
+% Third argument is the name of the wavelet, specified as a character vector.
+[c,l] = wavedec(signal,ndecomposition,wname);
+% Compress using a fixed threshold. 
+% De-noising or compression
+thr = 35; 
+keepapp = 1;
+[xd,cxd,lxd,perf0,perfl2] = wdencmp('gbl',c,l,wname,ndecomposition,thr,'h',keepapp);
