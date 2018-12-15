@@ -9,9 +9,14 @@ This makes wavelets interesting and useful. For many decades, scientists have wa
 
 # Files:
 > waveletana1.m 
+
 This file will show you how to plot different wavelets. 
+
 > analysis1D.m 
+
 This file will shows you how to denoise the signal as well as how to decompose the signal into the multi levels.
+
 > wavelet_data_compression.m 
+
 This files shows how to compress the data with the goos acccuracy. 
 
