@@ -20,3 +20,6 @@ This file will shows you how to denoise the signal as well as how to decompose t
 
 This files shows how to compress the data with the goos acccuracy. 
 
+## Link for the Blog:
+https://www.peopleperhour.com/web/aHR0cDovL2ludGVsbGlnZW50b25saW5ldG9vbHMuY29tL2Jsb2cvMjAxOC8xMi8xOS93YXZlbGV0LWRlbm9pc2luZy13aXRoLWRhdWJlY2hpZXMtd2F2ZWxldC8%3D
+
